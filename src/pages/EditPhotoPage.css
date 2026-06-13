@@ -1,0 +1,35 @@
+.edit-page__header {
+  margin-bottom: 26px;
+  border-bottom: 1px solid rgba(214, 169, 162, 0.24);
+  padding-bottom: 22px;
+}
+
+.edit-page__back {
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.edit-page__tip {
+  margin-top: 28px;
+  border-radius: var(--radius);
+  background: #f4e8e2;
+  padding: clamp(24px, 4vw, 34px);
+}
+
+.edit-page__tip strong {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--text);
+  font-size: 24px;
+}
+
+.edit-page__tip p {
+  max-width: 880px;
+  color: var(--text);
+  line-height: 1.75;
+  font-size: 17px;
+  font-weight: 700;
+}
